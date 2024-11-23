@@ -7,7 +7,7 @@ const UserStats = () => {
       {stats.map((stat, index) => (
         <div
           key={index}
-          className={`p-4 rounded shadow bg-[#0a1739] text-white flex justify-between items-center border border-gray-700 `}
+          className={`p-4 rounded shadow bg-[#0a1739] text-white flex justify-between items-center border border-gray-800 `}
         >
           <div className="flex gap-6 items-center ">
             <span

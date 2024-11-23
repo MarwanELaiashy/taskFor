@@ -1,17 +1,23 @@
+"use client";
+
 import React from "react";
 import { IoIosArrowForward } from "react-icons/io";
 import { IoIosArrowBack } from "react-icons/io";
 import { RiLogoutBoxRFill } from "react-icons/ri";
 import { CiSearch } from "react-icons/ci";
 import { IoSettings } from "react-icons/io5";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { AiFillCloseCircle } from "react-icons/ai";
 import { sidebarData } from "../DummyData";
 
 const SideBar = () => {
+  const [toggleMenu, setToggleMenu] = React.useState(false);
+
   return (
-    <aside className="w-72 bg-[#081027] border border-gray-900 text-white ">
+    <aside className="w-72  bg-[#081027] border border-gray-900 text-white ">
       <div className="p-4 flex flex-col">
         <div className="flex justify-between items-center">
-          <h2 className="text-2xl font-bold">Tecno Blocks</h2>
+          <h2 className="text-2xl font-bold text-[#c142e7]">Tecno Blocks</h2>
           <div className="flex ">
             <span>
               <IoIosArrowBack />
@@ -26,7 +32,7 @@ const SideBar = () => {
           <input
             type="text"
             placeholder="      Search for..."
-            className="bg-[#0a1739] p-3 border border-gray-700 rounded w-[265px] text-sm  mt-8 outline-none"
+            className="bg-[#0a1739] p-3 border border-gray-800 rounded w-[265px] text-sm  mt-8 outline-none"
           />
         </div>
       </div>

@@ -11,7 +11,7 @@ const Header = () => {
           <input
             type="text"
             placeholder="      Search for..."
-            className="bg-[#0a1739] p-3 border border-gray-700 flex-1 rounded w-[265px] text-sm   outline-none"
+            className="bg-[#0a1739] p-3 border border-gray-800 flex-1 rounded w-[265px] text-sm   outline-none"
           />
         </div>
         <button className="bg-[#cc3cfe] px-10 py-4  rounded text-sm font-semibold">

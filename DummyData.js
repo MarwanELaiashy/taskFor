@@ -17,6 +17,11 @@ import { FaUser } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa6";
 import { AiFillMessage } from "react-icons/ai";
 
+import { FaPhoneAlt } from "react-icons/fa";
+import { IoLocation } from "react-icons/io5";
+import { IoMail } from "react-icons/io5";
+import { ImCheckboxChecked } from "react-icons/im";
+
 export const sidebarData = [
   { title: "Dashboard", icon: <RiHome5Fill /> },
   { title: "Users", icon: <HiMiniUsers /> },
@@ -68,40 +73,76 @@ export const stats = [
   },
 ];
 
+export const tableData = [
+  { tHead: "Name", iconTable: <FaUser /> },
+  { tHead: "Phone", iconTable: <FaPhoneAlt /> },
+  { tHead: "Location", iconTable: <IoLocation /> },
+  { tHead: "Mail", iconTable: <IoMail /> },
+  { tHead: "Status", iconTable: <ImCheckboxChecked /> },
+];
+
 export const users = [
   {
     name: "John Carter",
     phone: "+20 1119646236",
     location: "United States",
     email: "john@gmail.com",
-    status: "Active",
+    status: "• Active",
   },
   {
     name: "Sophie Moore",
     phone: "+20 1119646236",
     location: "United Kingdom",
-    email: "sophie@gmail.com",
-    status: "Inactive",
+    email: "john@gmail.com",
+    status: "• Inactive",
   },
   {
     name: "Matt Cannon",
     phone: "+20 1119646236",
     location: "Australia",
-    email: "matt@gmail.com",
-    status: "Inactive",
+    email: "john@gmail.com",
+    status: "• Inactive",
   },
   {
     name: "Graham Hills",
     phone: "+20 1119646236",
     location: "India",
-    email: "graham@gmail.com",
-    status: "Active",
+    email: "john@gmail.com",
+    status: "• Active",
   },
   {
     name: "Sandy Houston",
     phone: "+20 1119646236",
     location: "Canada",
-    email: "sandy@gmail.com",
-    status: "Inactive",
+    email: "john@gmail.com",
+    status: "• Inactive",
+  },
+  {
+    name: "Andy Smith",
+    phone: "+20 1119646236",
+    location: "United States",
+    email: "john@gmail.com",
+    status: "• Active",
+  },
+  {
+    name: "Lilly Woods",
+    phone: "+20 1119646236",
+    location: "Australlia",
+    email: "john@gmail.com",
+    status: "• Inactive",
+  },
+  {
+    name: "Patrick Meyer",
+    phone: "+20 1119646236",
+    location: "United Kingdom",
+    email: "john@gmail.com",
+    status: "• Active",
+  },
+  {
+    name: "Francies Willen",
+    phone: "+20 1119646236",
+    location: "Canada",
+    email: "john@gmail.com",
+    status: "• Inactive",
   },
 ];
